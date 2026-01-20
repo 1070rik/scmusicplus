@@ -68,6 +68,14 @@
 - (bool)isHQAudioFeatureEnabled {
 	return YES;
 }
+
+-(bool)isDevelopmentMenuEnabled {
+	return YES;
+}
+
+-(bool)isEnrolledInBetaProgram {
+	return YES;
+}
 %end
 
 %ctor {
